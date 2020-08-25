@@ -2,11 +2,11 @@ var Characteristic;
 
 
 const F2C = (fahrenheit) => {
-    return (fahrenheit - 32) * 5 / 9;
+    return fahrenheit;
   }
   
  const C2F = (celsius) => {
-    return Math.round(celsius * 9 / 5 + 32);
+    return celsius;
   }
   
 
